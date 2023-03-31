@@ -17,7 +17,7 @@ export const cartreducer = (state = INIT_STATE, action) => {
             if (IteamIndex >= 0) {
                 state.carts[IteamIndex].qnty += 1
                 return {
-                    local,
+                  
                     ...state,
                     carts: [...state.carts]
                     
