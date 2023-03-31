@@ -28,7 +28,7 @@ function HomeProduct() {
 
   
    const find = () => {
-    return data.filter((item) =>
+    return data?.filter((item) =>
       keys.some((key) => item[key].toLowerCase().includes(search))
     );
   };

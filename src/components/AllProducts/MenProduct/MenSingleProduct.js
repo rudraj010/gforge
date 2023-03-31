@@ -22,8 +22,7 @@ fetch(`http://localhost:3000/men/${id}`)
 })
     }
     
-   console.log(data,'aaaaaa')
- 
+  
     useEffect(()=>{
       handleMenProductData()
      

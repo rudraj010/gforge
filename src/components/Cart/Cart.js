@@ -37,7 +37,7 @@ function Cart() {
 
     const Amount = () => {
       let price = 0;
-      cartData.map((item, ) => {
+      cartData?.map((item, ) => {
           price = item.price * item.qnty + price
       })
       setTotal(price)
