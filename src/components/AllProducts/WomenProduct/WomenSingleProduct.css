@@ -57,20 +57,18 @@
     @media screen and (max-width:320px) {
         .womensingle .media{
                 width:300px !important;
-                /* margin-left: 80px; */
-            }
+             }
 
             .womensingle .About{
                 display:flex;
-                /* justify-content: none; */
-                /* margin-top: 20rem; */
+               
                 }
     }
 
     @media screen and (max-width:991px) {
-        .womensingle.singleimg{
+        .womensingle .singleimg{
             width: 100% !important;
-            height:550px !important;
+            height:750px !important;
             object-fit: cover;
         }
 

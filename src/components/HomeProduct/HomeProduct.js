@@ -18,7 +18,7 @@ function HomeProduct() {
         })
       })
     }
-    if (!search || search?.length < 1) {
+    if (!search) {
       handleAllProductData();
     } else {
       call();
