@@ -1,0 +1,76 @@
+
+ .mensingle .singleimg{
+    width: 450px !important;
+    height:550px !important;
+    object-fit: cover;
+}
+
+.mensingle.aboutintro{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    text-align: center !important;
+}
+.mensingle.About{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+
+    .mensingle.ab{
+    background-color: rgb(251, 252, 252);
+
+   }
+
+   .mensingle .introtext{
+        font-size:1rem
+    }
+
+    .mensingle .biodata{
+        color:rgb(0, 0, 0);
+        
+    }  .mensingle .biodata li{
+        margin-top:10px;
+        font-size: 1.2rem;
+    }
+    .mensingle .discription p{
+        color:rgb(0, 0, 0)
+    }
+
+   
+    .mensingle .About .hr{
+        border-width: 40px;
+        width:100%;
+         color: red !important;
+    }
+
+    
+
+    .mensingle .About .btn-border{
+        border-width: 3px !important;
+        color:rgb(207, 189, 189)
+    }
+
+    .mensingle.colors{
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:320px) {
+        .mensingle .media{
+                width:300px !important;
+             }
+
+             .mensingle .About{
+                display:flex;
+                
+                }
+    }
+
+    @media screen and (max-width:991px) {
+        .mensingle .singleimg{
+            width: 100% !important;
+            height:550px !important;
+            object-fit: cover;
+        }
+
+    }
+

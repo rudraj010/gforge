@@ -1,0 +1,78 @@
+
+.womensingle .singleimg{
+    width: 450px !important;
+    height:550px !important;
+    object-fit: cover;
+}
+
+.womensingle .aboutintro{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    text-align: center !important;
+}
+.womensingle .About{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+
+    .womensingle .ab{
+    background-color: rgb(251, 252, 252);
+
+   }
+
+   .womensingle .introtext{
+        font-size:1rem
+    }
+
+    .womensingle .biodata{
+        color:rgb(0, 0, 0);
+        
+    } .womensingle .biodata li{
+        margin-top:10px;
+        font-size: 1.2rem;
+    }
+    .womensingle .discription p{
+        color:rgb(0, 0, 0)
+    }
+
+   
+    .womensingle .About .hr{
+        border-width: 40px;
+        width:100%;
+        color: red !important;
+    }
+
+    
+
+    .womensingle .About .btn-border{
+        border-width: 3px !important;
+        color:rgb(207, 189, 189)
+    }
+
+    .womensingle .colors{
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:320px) {
+        .womensingle .media{
+                width:300px !important;
+                /* margin-left: 80px; */
+            }
+
+            .womensingle .About{
+                display:flex;
+                /* justify-content: none; */
+                /* margin-top: 20rem; */
+                }
+    }
+
+    @media screen and (max-width:991px) {
+        .womensingle.singleimg{
+            width: 100% !important;
+            height:550px !important;
+            object-fit: cover;
+        }
+
+    }
+

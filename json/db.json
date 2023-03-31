@@ -1,0 +1,442 @@
+{
+    "categories": [
+      { "id": 1, 
+      "title": "Men",
+       "image": "https://images.unsplash.com/photo-1527010154944-f2241763d806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        
+
+     },
+     {
+         "id":2 , 
+     "title": "Women",
+      "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1940&q=80"  
+    },
+     {
+         "id":3 , 
+     "title": "Electronic",
+      "image": "https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"  
+    }
+      
+
+    ],
+
+    "electronic": [
+      { "id": 1, 
+      "title": "MacBook",
+       "image": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+       "star":"⭐⭐⭐⭐",
+       "price":"145210",
+       "type":"electronic",
+       "description":"Apply provide world's best technology"  
+
+     },
+     {
+         "id":2 , 
+     "title": "Computer",
+      "image": "https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"  ,
+      "price":"48210",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"Super fast computer with i7 processor"  
+    },
+     {
+         "id":3 , 
+     "title": "Dell Laptop",
+      "image": "https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price":"45210",
+       "star":"⭐⭐⭐",
+       "type":"electronic",
+       "description":"Dell is future genration"  
+    },
+     {
+         "id":4 , 
+     "title": "Home-Karaoke",
+      "image": "https://plus.unsplash.com/premium_photo-1677159499898-b061fb5bd2d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=800",
+      "price":"100000",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"Home Karaoke System for Singers"  
+    },
+     {
+         "id":5, 
+     "title": "iphone12",
+      "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=367&q=80",
+      "price":"68000",
+       "star":"⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"iphone14 is the best selling phone"  
+    },
+     {
+         "id":6 , 
+     "title": "iphone11-pro",
+      "image": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price":"110250",
+       "star":"⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"First triple camera iphone"  
+    },
+     
+     {
+         "id":7 , 
+     "title": "Sony-Camera",
+      "image": "https://images.unsplash.com/photo-1621985499238-698dfd45b017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price":"510250",
+       "star":"⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"Sony capture the best things"  
+    },
+     {
+         "id":8, 
+     "title": "Camera-Lence 5.1",
+      "image": "https://images.unsplash.com/photo-1608186336271-53313eeaf864?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price":"74650",
+       "star":"⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"Sony lence provide the best qulity pictures"  
+    },
+     {
+         "id":9 , 
+     "title": "Washing-Machine",
+      "image": "https://plus.unsplash.com/premium_photo-1675937428916-535f85f41c61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price":"40650",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"electronic",
+       "description":"L.G best washing machine that saves time"  
+    },
+    { "id": 10, 
+    "image": "https://images.unsplash.com/photo-1611791484670-ce19b801d192?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"iphone14",
+     "price":"88000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"electronic",
+     "description":"iphone12 has the best battary backup "  
+  },
+    { "id": 11, 
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Dell-Laptop",
+     "price":"20000",
+     "star":"⭐⭐⭐" ,
+     "type":"Dell has the best technology in market"
+  },
+  {
+    "id":12, 
+"title": "Nikon-Camera",
+ "image": "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+ "price":"310250",
+  "star":"⭐⭐⭐⭐",
+  "type":"electronic",
+  "description":"Nikon captures the best pictures for you"  
+}
+
+    ],
+
+
+    "men": [
+      { "id": 1, 
+      "image": "https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1885&q=80", 
+      "title":"Shirt",
+       "price":"1200",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men",
+       "description":"Pink T-Shirt  has become a global movement, with individuals",
+       "size":"xxl"
+    },
+      { "id": 2, 
+      "image": "https://images.unsplash.com/photo-1552573102-2b44b44d85b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80", 
+      "title":"Red-Jacket",
+       "price":"1520",
+       "star":"⭐⭐⭐",
+       "type":"men",
+       "description":"Jacket That Shows Fashion",
+       "size":"xxxl"
+    },
+    
+ 
+      { "id": 3, 
+      "image": "https://images.unsplash.com/photo-1602810320073-1230c46d89d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Grey-Shirt",
+       "price":"1750",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men",
+       "description":"London Style Shirt Nevar Fail To Impress",
+       "size":"xl"
+    },
+    
+      { "id": 4, 
+      "image": "https://images.unsplash.com/photo-1618001789159-ffffe6f96ef2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"White-Shirt",
+       "price":"1150",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men",
+       "description":"White-Shirt  has become a global movement, with individuals",
+       "size":"Sm"
+    },
+      { "id": 5, 
+      "image": "https://images.unsplash.com/photo-1619102814948-e164e584cf0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Long-Jacket",
+       "price":"1500",
+       "star":"⭐⭐⭐",
+       "type":"men",
+       "description":"Jacket For Men In Winter For Warmness",
+       "size":"m"
+    },
+      { "id": 6, 
+      "image": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Men-Suit",
+       "price":"1520",
+       "star":"⭐⭐⭐⭐",
+       "type":"men",
+       "description":"Black Part Wear Suit For Men",
+       "size":"sm"
+    },
+      { "id": 7, 
+      "image": "https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"T-Shirt",
+       "price":"1277",
+       "star":"⭐⭐⭐⭐",
+       "type":"men",
+       "description":"T-Shirt That Can Bring Coolness",
+       "size":"M"
+    },
+      { "id": 8, 
+      "image": "https://images.unsplash.com/photo-1557684387-08927d28c72a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80", 
+      "title":"Black-Hat",
+       "price":"1658",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men",
+       "description":"Hat That Can Be Cool ",
+       "size":"xl"
+    },
+      { "id": 9, 
+      "image": "https://images.unsplash.com/photo-1555363947-31b65ce0ffc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Printed-Shirt",
+       "price":"1780",
+       "star":"⭐⭐⭐",
+       "type":"men",
+       "description":"Printd Shirt  has become a global movement, with individuals",
+       "size":"xxl"
+    },
+    { "id": 10, 
+    "image": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Men-Suit",
+     "price":"4000",
+     "star":"⭐⭐⭐⭐⭐",
+     "type":"men",
+     "description":"Pink T-Shirt Day has become a global movement, with individuals",
+     "size":"sm"
+  },
+    { "id": 11, 
+    "image": "https://images.unsplash.com/photo-1602810318660-d2c46b750f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Dark-Pink-Shirt",
+     "price":"3000",
+     "star":"⭐⭐⭐⭐",
+     "type":"men",
+     "description":"This Can Be Wear At Any Function ",
+     "size":"xxxl"
+  },
+    { "id": 12, 
+    "image": "https://images.unsplash.com/photo-1602810319250-a663f0af2f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Shirt-Combo",
+     "price":"6000",
+     "star":"⭐⭐⭐",
+       "type":"men",
+       "description":"Combo Of Shirt Can Be Damm Good",
+       "size":"m"
+  }
+    
+       
+       
+    
+
+    
+    ],
+   
+    "women": [
+      { "id": 1, 
+      "image":"https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "title":"Blue-Jacket",
+       "price":"2000",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"Blue jacket looks cool ",
+         "size":"m"
+    },
+      { "id": 2, 
+      "image": "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Tunic",
+       "price":"2356",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"Stylelish Yellow Tunic for All Function ",
+         "size":"xl"
+    },
+      { "id": 3, 
+      "image": "https://images.pexels.com/photos/965324/pexels-photo-965324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Black-Trouser",
+       "price":"6589",
+       "star":"⭐⭐⭐",
+       "type":"girls",
+         "description":"balck loewer and t-shirt set for gym ",
+         "size":"xl"
+    },
+      { "id": 4, 
+      "image": "https://images.pexels.com/photos/245388/pexels-photo-245388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Hat",
+       "price":"1254",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"Hat is coolest fashion ",
+         "size":"xxl"
+    },
+      { "id": 5, 
+      "image": "https://images.pexels.com/photos/1391499/pexels-photo-1391499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"White-Gown",
+       "price":"8964",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"White gown for all occassion ",
+         "size":"xxxl"
+    },
+      { "id": 6, 
+      "image": "https://images.pexels.com/photos/1375849/pexels-photo-1375849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Gray-Top",
+       "price":"2397",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"Grey top summer vacation collection ",
+         "size":"xxxl"
+    },
+      { "id": 7, 
+      "image": "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Black-Top",
+       "price":"4557",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"black top looks cool everywhere ",
+         "size":"xxl"
+    },
+      { "id": 8, 
+      "image": "https://images.pexels.com/photos/1376042/pexels-photo-1376042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Blue-Lehenga",
+       "price":"9957",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"Blue lenhaga has the vibe in wedding season",
+         "size":"xxxl"
+    },
+      { "id": 9, 
+      "image": "https://images.pexels.com/photos/921646/pexels-photo-921646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "title":"Short-Combo",
+       "price":"9957",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+         "description":"short jeans and top combo  ",
+         "size":"xxxl"
+    },
+    { "id": 10, 
+      "image": "https://images.unsplash.com/photo-1602370463198-086436840055?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80", 
+      "title":"Leather-Jacket",
+       "price":"8000",
+       "star":"⭐⭐⭐⭐⭐" ,
+       "description":"Stylelish black leather jacket for girls ",
+       "type":"girls"
+      
+    },
+      { "id": 11, 
+      "image": "https://images.unsplash.com/photo-1576248004793-2c21b24b7bcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80", 
+      "title":"Winter-Hoodie",
+       "price":"5000",
+       "star":"⭐⭐⭐⭐" ,
+       "description":"Winter hoodie in white collection ",
+       "type":"girls"
+    },
+      { "id": 12, 
+      "image": "https://images.unsplash.com/photo-1514994162322-3e95d11d22a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Trandy-T-Shirt",
+       "price":"3000",
+       "star":"⭐⭐⭐⭐" ,
+       "description":"White t-shirt for summer ",
+       "type":"girls"
+    }
+    
+    ],
+    "allproduct": [
+      { "id": 10, 
+      "image": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Men-Suit",
+       "price":"4000",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men"
+    },
+    { "id": 10, 
+    "image": "https://images.unsplash.com/photo-1602370463198-086436840055?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80", 
+    "title":"Leather-Jacket",
+     "price":"8000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"girls"
+    
+  },
+  { "id": 10, 
+      "image": "https://images.unsplash.com/photo-1611791484670-ce19b801d192?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"iphone-14",
+       "price":"88000",
+       "star":"⭐⭐⭐⭐⭐" ,
+       "type":"electronic"
+    },
+      { "id": 11, 
+      "image": "https://images.unsplash.com/photo-1602810318660-d2c46b750f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Printed-suit",
+       "price":"3000",
+       "star":"⭐⭐⭐⭐",
+       "type":"men"
+    },
+      { "id": 12, 
+      "image": "https://images.unsplash.com/photo-1602810319250-a663f0af2f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Shirt-Combo",
+       "price":"6000",
+       "star":"⭐⭐⭐",
+       "type":"men"
+    },
+     
+      { "id": 11, 
+      "image": "https://images.unsplash.com/photo-1576248004793-2c21b24b7bcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80", 
+      "title":"Winter-Hoodie",
+       "price":"5000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls"
+    },
+      { "id": 12, 
+      "image": "https://images.unsplash.com/photo-1514994162322-3e95d11d22a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Trandy-T-Shirt",
+       "price":"3000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls"
+    },
+      
+      { "id": 11, 
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Dell-Laptop",
+       "price":"20000",
+       "star":"⭐⭐⭐" ,
+       "type":"electronic"
+    },
+     {
+    "id":12, 
+"title": "Nikon-Camera",
+ "image": "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+ "price":"310250",
+  "star":"⭐⭐⭐⭐",
+  "type":"electronic"
+  
+}
+
+    
+    ]
+
+     
+
+
+
+
+   
+  }

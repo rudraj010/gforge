@@ -1,0 +1,54 @@
+
+.nav a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:small;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+
+.nav .textlength{
+       border:3px solid red !important;
+       height:30px !important;
+       width:20px !important;
+       border-radius: 2px;
+       background-color: aqua;
+
+}
+
+.nav .mainlogo{
+    width:75%;
+    height:40% !important
+}
+
+.nav li :hover  {
+    color:rgb(237, 159, 159) !important;
+}
+
+@media screen and (max-width:767px) {
+    .nav .mainlogo{
+        width:20% !important;
+        height:auto !important;
+        margin-top:5px !important;
+        margin-bottom: 5px !important;
+    }
+   .nav .maincarticon{
+        margin: 0px !important;
+    }
+
+   
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+     .nav .mainlogo{
+        width:15% !important;
+        height: auto;
+     }
+     .nav .maincarticon{
+        margin: 0px !important;
+        margin-top:5px !important;
+        margin-bottom: 5px !important;
+    }
+}

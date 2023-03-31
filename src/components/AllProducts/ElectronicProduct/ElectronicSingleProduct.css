@@ -1,0 +1,83 @@
+
+
+
+.electronicsingle .singleimg{
+    width: 450px !important;
+    height:550px !important;
+    object-fit: cover;
+}
+
+.electronicsingle .aboutintro{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    text-align: center !important;
+}
+.electronicsingle .About{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+
+    .electronicsingle .ab{
+    background-color: rgb(251, 252, 252);
+
+   }
+
+   .electronicsingle .introtext{
+        font-size:1rem
+    }
+
+    .electronicsingle .shipping-charge{
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    } 
+
+    .electronicsingle .biodata{
+        color:rgb(0, 0, 0);
+        
+    } .electronicsingle .biodata li{
+        margin-top:10px;
+        font-size: 1.2rem;
+    }
+    .electronicsingle .discription p{
+        color:rgb(0, 0, 0)
+    }
+
+   
+    .electronicsingle .About .hr{
+        border-width: 40px;
+        width:100%;
+        color: red !important;
+    }
+
+    
+
+    .electronicsingle .About .btn-border{
+        border-width: 3px !important;
+        color:rgb(207, 189, 189)
+    }
+
+    .electronicsingle .colors{
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:320px) {
+        .electronicsingle .media{
+                width:300px !important;
+             }
+
+             .electronicsingle .About{
+                display:flex;
+               
+                }
+    }
+
+    @media screen and (max-width:991px) {
+        .electronicsingle .singleimg{
+            width: 100% !important;
+            height:550px !important;
+            object-fit: cover;
+        }
+
+    }
+

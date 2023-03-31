@@ -1,0 +1,17 @@
+.footer{
+    background-color: rgb(243, 230, 228);
+    height: 20rem;
+    box-shadow: 50px 50px 50px 50px rgb(255, 248, 248);
+}
+
+
+.footer li{
+    text-decoration: none;
+    list-style: none;
+}
+
+  .blackbox{
+ background-color:black;
+ height:4rem;
+ color:#fff
+}

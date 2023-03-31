@@ -1,0 +1,103 @@
+
+
+.allcartdata{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.allcartdata .cartimages{
+    height:300px;
+    height:300px
+    
+}
+
+.allcartdata .cartimages{
+    border-radius: 5px;
+}
+
+.carts{
+    border-radius: 5px;
+    border:1px solid rgb(255, 255, 255);
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.carts-data .hr{
+    border-width: 40px;
+     color: red !important;
+     width:90%;
+     margin: auto;
+  }
+
+.allcartdata{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.allcartdata .trashimg{
+         cursor: pointer;
+         /* width:15%; */
+         width:2.3rem;
+          /* background-color: red; */
+        /* border-radius: 6px; */
+        margin-left: 3rem !important;
+}
+
+.allcartdata .trashimg:hover{
+         cursor: pointer;
+         /* width:7%; */
+         color:red;
+         background-color: rgb(217, 186, 186);
+        border-radius: 8px;
+}
+
+ .minus{
+    font-size: 2rem !important;
+    cursor: pointer;
+    /* background-color: rgb(78, 94, 108); */
+}
+ .quntity{
+    font-size: 2rem !important;
+}
+ .plus{
+    font-size: 2rem !important;
+    cursor: pointer;
+}
+
+.btnborder{
+    background-color: rgb(160, 178, 178);
+    border-radius: 100px;
+
+}
+.cartsdata{
+    display: flex;
+}
+
+.carthr{
+    color:rgb(175, 206, 206);
+    border-width: 2px;
+}
+
+.cart-total{
+background-color: rgb(240,248,255);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+@media screen and (max-width:992px) {
+   
+
+     .cartsdata{
+        display: block !important;
+
+     }
+     .cartimages{
+        width:100%;
+        height: auto !important;
+     }
+
+     .allcartdata{
+    display: block!important;
+    grid-template-columns: 50% 50%;
+}
+
+     }
