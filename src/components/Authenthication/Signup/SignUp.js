@@ -15,8 +15,8 @@ const SignUp = () => {
     const [data, setData] = useState({
         fullName:"",
         email: "",
-        password: "",
-        confirmPassword:""
+        password: "",    
+        confirmPassword:""   
     });
 
  
