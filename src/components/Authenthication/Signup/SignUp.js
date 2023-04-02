@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import VisibilityOffIcon from '@material-ui/icons/VisibilityOff';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./SignUp.css"
 
 
@@ -31,12 +33,20 @@ const SignUp = () => {
  
     const Submit=async (e)=>{
       e.preventDefault()
-      if(data?.fullName.length===0 && data?.email?.length){
+      if(!data?.fullName.length){
 
+    }else if(!data?.email?.length){
           alert('Please fill the details')
-      }else{
-             alert('User Register Successfully')
+             
+      }  else if(!data?.password?.length){
+        alert('Please fill the password')
+
+      } else{
           navigate('/login')
+        toast.success('Register Successfully', {
+            position: toast.POSITION.TOP_CENTER,
+            autoClose: 2000,
+        });
       }
 
     }
@@ -71,15 +81,7 @@ const SignUp = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="form_input">
-                            <label htmlFor="password">Confirm Password</label>
-                            <div className="two">
-                                <input type={!showPassword ? "password" : "text"} onChange={onChangeHandle} value={data.confirmPassword} name="confirmPassword" id="password" placeholder='Confirm Password' />
-                                <div className="show" onClick={() => setShowPassword(!showPassword)}>
-                                    {!showPassword ? <VisibilityIcon/> : <VisibilityOffIcon/>}
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <button className='btn_login'>Signup</button>
                         <p >Already have an account? <Link to="/login" className='link'><span  className='link'> LogIn</span> </Link> </p>

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import './WomenSingleProduct.css'
 import { useDispatch } from 'react-redux'
 import { ADD } from '../../Redux/Action'
+import { ColorRing} from 'react-loader-spinner'
 
 
 function MenProduct() {
@@ -34,6 +35,16 @@ fetch(`http://localhost:3000/women/${id}`)
     
   return (
     <> 
+    {!data?<ColorRing
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+/>:<>
+<hr/>
     <div className=" About container-fluid womensingle ">
     <div className="containter ">
         <div className=" container col-md-12 col-sm-10 d-flex justify-content-center">
@@ -43,7 +54,7 @@ fetch(`http://localhost:3000/women/${id}`)
             <i className='introtext'>Fashion Speaks For You</i><br/>
           </div>
         </div>
-        <hr className='hr' />
+        <hr className='womenicsinglehr' />
   <div className= 'container col-lg-12 ab col-md-12 mt-5 d-flex flex-wrap  '>
             <div className='col-lg-6 col-md-12'>
             <img src={data?.image} alt='' className='singleimg'/>
@@ -71,6 +82,10 @@ Style is a way to say who you are without having to speak</span>
     </div>
        
     </div>
+</>
+    
+    }
+   
     </>
   )
 }

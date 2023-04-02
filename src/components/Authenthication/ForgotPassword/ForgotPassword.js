@@ -10,7 +10,11 @@ import "./ForgotPassword.css"
 
 const Login = () => {
 
+ 
     const navigate =useNavigate()
+
+    
+
 
   const sendOtp=()=>{
     alert('Please Check Your E-mail')
@@ -30,11 +34,11 @@ const Login = () => {
                     <form >
                         <div className="form_input">
                             <label htmlFor="email">Email</label>
-                            <input type="text"  name="username" id="email" placeholder='Email Address' />
+                            <input type="text"  name="username" id="email" placeholder='Email Address' se />
                         </div>
                        
 
-                        <button className='btn_login' onClick={sendOtp}>Send OTP</button>
+                        <button className='btn_password' onClick={sendOtp}>Send OTP</button>
  
                     </form>
 

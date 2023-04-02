@@ -34,6 +34,7 @@ await fetch(`http://localhost:3000/electronic/${id}`)
     
   return (
     <> 
+    <hr/>
     <div className=" About container-fluid electronicsingle">
     <div className="containter ">
         <div className=" container col-md-12 col-sm-10 d-flex justify-content-center">
@@ -43,7 +44,7 @@ await fetch(`http://localhost:3000/electronic/${id}`)
             
           </div>
         </div>
-        <hr className='hr' />
+        <hr className='electronicsinglehr' />
   <div className= 'container col-lg-12 ab col-md-12 mt-5 d-flex flex-wrap  '>
             <div className='col-lg-6 col-md-12'>
             <img src={data?.image} alt='' className='singleimg'/>

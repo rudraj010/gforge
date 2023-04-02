@@ -37,10 +37,12 @@
     }
 
    
-    .mensingle .hr{
-        /* border-width: 40px; */
-        width:100%;
-         /* color: red !important; */
+    .mensinglehr{
+        border-width: 40px;
+        width:88%;
+         color: red !important;
+         margin: auto;
+         margin-top: 10px;
     }
 
     

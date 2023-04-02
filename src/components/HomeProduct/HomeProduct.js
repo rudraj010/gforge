@@ -39,11 +39,11 @@ function HomeProduct() {
 
   return (
     <>
-      <div className='container mt-4  homeproduct '>
+      <div className='container mt-5  homeproduct mb-4 '>
         <div className='d-flex justify-content-center  '>
           <h1 className='h1'>Tranding Style's</h1>
         </div>
-       <div className='searchbox'> <input type='search' className='searchinput mx-2' placeholder='Search...' onChange={(e) => setSearch(e.target.value)} value={search}/> 
+       <div className='searchbox m-4'> <input type='search' className='searchinput mx-2' placeholder='Search...' onChange={(e) => setSearch(e.target.value)} value={search}/> 
        </div>
         <hr className='hr' />
         <div className=' d-flex flex-wrap justify-content-center mt-4 '>

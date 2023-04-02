@@ -1,7 +1,8 @@
 import React, { useEffect ,useState} from 'react'
 import { Link } from 'react-router-dom'
 
-  
+import { ColorRing} from 'react-loader-spinner'
+
  import './ElectronicProduct.css'
  
 function ElectronicProduct() {
@@ -26,8 +27,17 @@ fetch('http://localhost:3000/electronic').then((res)=>{
 
   return (
     <>
-   
-    <hr className='hr' />
+   {
+    !data?<ColorRing
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+/>:<>
+<hr className='hr' />
 
     <div className ='container mt-4 electronic '>
        <div className='d-flex justify-content-center  '>
@@ -64,6 +74,9 @@ fetch('http://localhost:3000/electronic').then((res)=>{
        </div>
     </div>
  
+</>
+   }
+    
     </>
   )
 }

@@ -1,0 +1,62 @@
+
+
+.tranding{
+   margin-top: 6rem !important;
+   width:100%;
+}
+
+
+
+.tranding .tranding-top img{
+    width:280px;
+    height: 400px;
+}
+.tranding .tranding-top img:hover{
+    width:280px;
+    height: 380px;
+}
+
+
+
+.tranding .trand-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 132, 70);
+    font-size: 60px;
+
+
+}
+
+
+.tranding .help  img{
+    width:15% !important;
+    cursor: pointer;
+}
+
+.tranding .details{
+    margin-top: 6rem !important ;
+    background-color: rgb(212, 227, 210);
+    padding: 4rem;
+}
+
+.tranding .help .img:hover{
+    width:13%;
+    cursor: pointer;
+}
+
+
+.tranding .help p{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* cursor: pointer; */
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    .tranding .tranding-top img{
+        height:230px;
+        width:160px !important;
+         object-fit:cover;
+    }
+}

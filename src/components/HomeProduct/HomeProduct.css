@@ -7,6 +7,15 @@
       padding:0px
 }
 
+.homeproduct .img:hover{
+  height:340px;
+  width:250px !important;
+  border-radius: 10px;
+  object-fit:cover;
+  border:2px solid rgb(215, 215, 233);
+    padding:0px
+}
+
 .homeproduct .imgwrap{
     display: flex !important;
     flex-wrap: wrap !important;
@@ -34,7 +43,7 @@
 
 
         .homeproduct .searchinput{
-          padding: 10px 25px 7px 20px !important;
+          padding: 10px 15px 7px 20px !important;
           border-radius: 5px;
           background-color: rgb(246, 239, 239);
           border: 1px solid rgb(223, 213, 213);

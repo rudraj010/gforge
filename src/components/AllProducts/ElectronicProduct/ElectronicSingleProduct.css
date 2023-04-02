@@ -44,10 +44,12 @@
     }
 
    
-    .electronicsingle .About .hr{
+    .electronicsinglehr{
         border-width: 40px;
-        width:100%;
+        width:88%;
         color: red !important;
+        margin: auto;
+        margin-top: 5px;
     }
 
     

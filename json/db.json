@@ -242,12 +242,62 @@
        "type":"men",
        "description":"Combo Of Shirt Can Be Damm Good",
        "size":"m"
-  }
-    
-       
-       
-    
+  },
+  { "id": 13, 
+  "image": "https://images.unsplash.com/photo-1617331647819-2495792e53e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80", 
+  "title":"Men-Jacket",
+   "price":"40000",
+   "star":"⭐⭐⭐⭐⭐",
+   "type":"men",
+   "description":"This Can Be Wear At Any Function ",
+   "size":"xxxl"
+},
+{ "id": 14, 
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Winter-Set",
+       "price":"7000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men",
+       "description":"Jacket For Men In Winter For Warmness",
+       "size":"m"
+    },
 
+        { "id": 15, 
+      "image": "https://images.unsplash.com/photo-1642630877877-ee286a5c50c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Blue-Shirt",
+       "price":"7600",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men",
+       "description":"This Can Be Wear At Any Function ",
+       "size":"xxxl"
+    },
+     
+    { "id": 16, 
+    "image": "https://images.unsplash.com/photo-1542776575-f1623249ce85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Printed-Tshirt",
+     "price":"9000",
+     "star":"⭐⭐⭐⭐" ,
+     "type":"Men"
+  },
+  { "id": 17, 
+      "image": "https://images.unsplash.com/photo-1593726891090-b4c6bc09c819?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"HipHop-Tshirt",
+       "price":"9000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men",
+       "description":"London Style Shirt Nevar Fail To Impress",
+       "size":"xl"
+    }
+    ,
+    { "id": 18, 
+    "image": "https://images.unsplash.com/photo-1536766820879-059fec98ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Printed-Shirt",
+     "price":"88000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"Men",
+     "description":"London Style Shirt Nevar Fail To Impress",
+       "size":"xl"
+  }
     
     ],
    
@@ -357,8 +407,65 @@
        "star":"⭐⭐⭐⭐" ,
        "description":"White t-shirt for summer ",
        "type":"girls"
-    }
+    },
+    { "id": 13, 
+    "image":"https://images.unsplash.com/photo-1608465374941-e02ce28d1527?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "title":"Women-Top",
+     "price":"8000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"girls",
+     "description":"black top looks cool everywhere ",
+     "size":"xxl"
     
+  },
+ 
+      { "id": 14, 
+      "image": "https://images.unsplash.com/photo-1550928431-ee0ec6db30d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Red-Gown",
+       "price":"30000",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls",
+       "description":"Red Gown  looks cool everywhere ",
+       "size":"xxl"
+    },
+      { "id": 15, 
+      "image": "https://images.unsplash.com/photo-1671848606001-02938c4a6dea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"White-Top",
+       "price":"6000",
+       "star":"⭐⭐⭐",
+       "type":"girls",
+       "description":"White gown for all occassion ",
+        "size":"xxl"
+    },
+     
+    { "id": 16, 
+    "image": "https://images.unsplash.com/photo-1669257965650-937651e8a13c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Bridal-Set",
+     "price":"33500",
+     "star":"⭐⭐⭐⭐" ,
+     "type":"girls",
+     "description":"Bridal Set That Make  Your Wedding Day  ",
+     "size":"xxxl"
+  },
+  { "id": 17, 
+      "image": "https://images.unsplash.com/photo-1649864729883-0ba943d27f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Gym-Set",
+       "price":"9000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls",
+       "description":"Comort gym set for girls",
+       "size":"xxxl"
+    },
+    { "id": 18, 
+      "image": "https://images.unsplash.com/photo-1506795660198-e95c77602129?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"White-Top",
+       "price":"8000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls",
+       "description":"Summer Top Collection for girls",
+       "size":"xxxl"
+    }
+   
     ],
     "allproduct": [
       { "id": 10, 
@@ -366,7 +473,9 @@
       "title":"Men-Suit",
        "price":"4000",
        "star":"⭐⭐⭐⭐⭐",
-       "type":"men"
+       "type":"men",
+       "tranding":"trand"
+
     },
     { "id": 10, 
     "image": "https://images.unsplash.com/photo-1602370463198-086436840055?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80", 
@@ -431,6 +540,101 @@
 }
 
     
+    ],
+
+    
+    "tranding": [
+      { "id": 13, 
+      "image": "https://images.unsplash.com/photo-1617331647819-2495792e53e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80", 
+      "title":"Men-Jacket",
+       "price":"40000",
+       "star":"⭐⭐⭐⭐⭐",
+       "type":"men"
+    },
+    { "id": 13, 
+    "image":"https://images.unsplash.com/photo-1608465374941-e02ce28d1527?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "title":"Women-Top",
+     "price":"8000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"girls"
+    
+  },
+  
+      { "id": 14, 
+      "image": "https://images.unsplash.com/photo-1550928431-ee0ec6db30d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Red-Gown",
+       "price":"30000",
+       "star":"⭐⭐⭐⭐",
+       "type":"girls"
+    },
+      { "id": 15, 
+      "image": "https://images.unsplash.com/photo-1671848606001-02938c4a6dea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"White-Top",
+       "price":"6000",
+       "star":"⭐⭐⭐",
+       "type":"girls"
+    },
+     
+      { "id": 14, 
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Winter-Set",
+       "price":"7000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men"
+    },
+     
+      { "id": 15, 
+      "image": "https://images.unsplash.com/photo-1642630877877-ee286a5c50c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Blue-Shirt",
+       "price":"7600",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men"
+    },
+     
+      { "id": 16, 
+      "image": "https://images.unsplash.com/photo-1669257965650-937651e8a13c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Bridal-Set",
+       "price":"33500",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls"
+    },
+     
+      { "id": 17, 
+      "image": "https://images.unsplash.com/photo-1649864729883-0ba943d27f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Gym-Set",
+       "price":"9000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls"
+    },
+      { "id": 16, 
+      "image": "https://images.unsplash.com/photo-1542776575-f1623249ce85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"Printed-Tshirt",
+       "price":"9000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men"
+    },
+      { "id": 17, 
+      "image": "https://images.unsplash.com/photo-1593726891090-b4c6bc09c819?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"HipHop-Tshirt",
+       "price":"9000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"Men"
+    },
+      { "id": 18, 
+      "image": "https://images.unsplash.com/photo-1506795660198-e95c77602129?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+      "title":"White-Top",
+       "price":"8000",
+       "star":"⭐⭐⭐⭐" ,
+       "type":"girls"
+    },
+    { "id": 18, 
+    "image": "https://images.unsplash.com/photo-1536766820879-059fec98ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
+    "title":"Printed-Shirt",
+     "price":"88000",
+     "star":"⭐⭐⭐⭐⭐" ,
+     "type":"Men"
+  }
+      
     ]
 
      
