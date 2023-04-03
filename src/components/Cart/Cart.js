@@ -4,6 +4,8 @@ import { ADD,DLT,REMOVE ,Empty} from '../Redux/Action'
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { ColorRing} from 'react-loader-spinner'
+
 import './Cart.css'
 function Cart() {
 
@@ -70,7 +72,19 @@ function Cart() {
     
   return (
     <>
-    <div className='carts-data'>
+    {
+      !cartData?<span className='d-flex justify-content-center mt-5'>
+      <ColorRing
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+/>
+      </span>:<>
+      <div className='carts-data'>
             <hr className='hr mt-3 '/>
             <div className=' allcartdata mt-5 '>
             {
@@ -122,6 +136,9 @@ function Cart() {
              
           
              </div>
+      </>
+    }
+   
     </>
   )
 }

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import './ElectronicSingleProduct.css'
 import { useDispatch } from 'react-redux'
 import { ADD } from '../../Redux/Action'
+import { ColorRing} from 'react-loader-spinner'
 
 
 function MenProduct() {
@@ -34,7 +35,17 @@ await fetch(`http://localhost:3000/electronic/${id}`)
     
   return (
     <> 
-    <hr/>
+     { 
+      !data? <span className='d-flex justify-content-center mt-5'><ColorRing
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+/></span>:<>
+<hr/>
     <div className=" About container-fluid electronicsingle">
     <div className="containter ">
         <div className=" container col-md-12 col-sm-10 d-flex justify-content-center">
@@ -71,6 +82,9 @@ await fetch(`http://localhost:3000/electronic/${id}`)
           </div>  
     </div>     
     </div>
+</>
+     }
+   
     </>
   )
 }

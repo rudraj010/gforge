@@ -2,7 +2,7 @@
 
 import { ADD_CART,REMOVE_ALL,REMOVE_SINGLE,EMPTY_ITEM } from "../Constant/Constant";
 const INIT_STATE = {
-    carts: []
+    carts: localStorage.getItem("Localitems",) ? JSON.parse(localStorage.getItem("Localitems")) : []
 };
 
 console.log(INIT_STATE.carts, "sa")
@@ -12,7 +12,7 @@ export const cartreducer = (state = INIT_STATE, action) => {
         case ADD_CART:
 
             const IteamIndex = state.carts.findIndex((iteam) => iteam.id === action.payload.id);
-                 
+            localStorage.setItem("Localitems", JSON.stringify(state.carts))
               
             if (IteamIndex >= 0) {
                 state.carts[IteamIndex].qnty += 1

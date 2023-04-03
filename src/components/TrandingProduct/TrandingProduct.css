@@ -39,7 +39,7 @@
 }
 
 .tranding .help .img:hover{
-    width:13%;
+    width:13% !important;
     cursor: pointer;
 }
 

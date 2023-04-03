@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { ColorRing} from 'react-loader-spinner'
 
 import "./Categories.css";
 
@@ -28,8 +29,19 @@ function Categories() {
 
   return (
    <>
-   
-    <div className ='container mt-4 categories  '>
+   {
+      !data?  <span className='d-flex justify-content-center mt-5'>
+
+    <ColorRing
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+/>  </span>:<>
+<div className ='container mt-4 categories  '>
        <div className='d-flex justify-content-center  '>
        <hr/>
         <h1 className='h1'>Categories</h1>
@@ -59,6 +71,9 @@ function Categories() {
 
        </div>
      </div>
+</>
+   }
+   
     </>
   )
 }

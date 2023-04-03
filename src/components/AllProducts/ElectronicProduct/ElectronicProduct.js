@@ -28,7 +28,8 @@ fetch('http://localhost:3000/electronic').then((res)=>{
   return (
     <>
    {
-    !data?<ColorRing
+    !data? <span className='d-flex justify-content-center mt-5'>
+    <ColorRing
   visible={true}
   height="120"
   width="120"
@@ -36,7 +37,8 @@ fetch('http://localhost:3000/electronic').then((res)=>{
   wrapperStyle={{}}
   wrapperClass="blocks-wrapper"
   colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
-/>:<>
+/>
+    </span>:<>
 <hr className='hr' />
 
     <div className ='container mt-4 electronic '>
