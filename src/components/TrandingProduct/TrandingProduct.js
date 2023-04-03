@@ -41,7 +41,7 @@ fetch('http://localhost:3000/tranding  ').then((res)=>{
         {
             data?.map((item)=>{
                 return(
-                    <Link to={item?.type === 'Men' ? `/mensingleproduct/${item?.id}`:`/womensingleproduct/${item?.id}`}     className='mx-3 py-3'>
+                    <Link to={item?.type === 'men' ? `/mensingleproduct/${item?.id}`:`/womensingleproduct/${item?.id}`}     className='mx-3 py-3'>
                     <div className='d-flex justify-content-center flex-wrap'>
 
                 <img src={item?.image} />
