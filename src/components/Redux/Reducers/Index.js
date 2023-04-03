@@ -33,24 +33,24 @@ export const cartreducer = (state = INIT_STATE, action) => {
 
         case REMOVE_ALL:
             const data = state.carts.filter((item) => item.id !== action.payload)
-            return {
+             return {
                 ...state,
                 carts: data
 
             }
 
         case REMOVE_SINGLE:
-            const IteamIndex_dec = state.carts.findIndex((item) => item.id === action.payload.id);
+            const ItemIndex_dec = state.carts.findIndex((item) => item.id === action.payload.id);
 
-            if (state.carts[IteamIndex_dec].qnty >= 1) {
-                const dltiteams = state.carts[IteamIndex_dec].qnty -= 1
-                console.log([...state.carts, dltiteams]);
-
+            if (state.carts[ItemIndex_dec].qnty >= 1) {
+                const dltitems = state.carts[ItemIndex_dec].qnty -= 1
+                console.log([...state.carts, dltitems]);
+ 
                 return {
                     ...state,
                     carts: [...state.carts]
                 }
-            } else if (state.carts[IteamIndex_dec].qnty === 1) {
+            } else if (state.carts[ItemIndex_dec].qnty === 1) {
                 const data = state.carts.filter((el) => el.id !== action.payload);
 
                 return {
