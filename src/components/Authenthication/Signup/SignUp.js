@@ -58,7 +58,7 @@ const SignUp = () => {
             <section>
                 <div className="form_data">
                     <div className="heading">
-                        <h1>Log In</h1>
+                        <h1>Sign Up</h1>
                         <span className='mt-1'>Create yor account to get access</span>
 
                     </div>
@@ -66,7 +66,7 @@ const SignUp = () => {
                     <form onSubmit={Submit}>
                         <div className="form_input">
                             <label htmlFor="email">Full Name</label>
-                            <input type="text" value={data.fullName} onChange={onChangeHandle} name="fullName" id="text" placeholder='Username/Email Address' />
+                            <input type="text" value={data.fullName} onChange={onChangeHandle} name="fullName" id="text" placeholder='Full Name' />
                         </div>
                         <div className="form_input">
                             <label htmlFor="email">Email</label>
