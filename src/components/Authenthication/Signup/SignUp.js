@@ -34,7 +34,7 @@ const SignUp = () => {
     const Submit=async (e)=>{
       e.preventDefault()
       if(!data?.fullName.length){
-
+        alert('Please fill the details')
     }else if(!data?.email?.length){
           alert('Please fill the details')
              
