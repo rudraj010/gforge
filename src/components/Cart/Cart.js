@@ -1,16 +1,15 @@
 import React,{useState,useEffect} from 'react'
-import { useSelector ,dispatch, useDispatch} from 'react-redux'
-import { ADD,DLT,REMOVE ,Empty} from '../Redux/Action'
+import { useSelector , useDispatch} from 'react-redux'
+import { ADD,DLT,REMOVE } from '../Redux/Action'
 import { useNavigate } from 'react-router-dom'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { ColorRing} from 'react-loader-spinner'
 
 import './Cart.css'
 function Cart() {
 
-  const cartData =useSelector((state)=>state?.cartreducer?.carts)
-
+  const cartData = useSelector((state)=>state?.cartreducer?.carts)
 
      const [total,setTotal]=useState()
 
@@ -18,15 +17,12 @@ function Cart() {
 
      const navigate =useNavigate()
 
- 
     const dispatch =useDispatch()
-
 
     const Delete =(id)=>{
           dispatch(DLT(id))
          
     }
-
 
     const Add =(e)=>{
           dispatch(ADD(e))
@@ -35,7 +31,6 @@ function Cart() {
     const Remove =(item)=>{
           dispatch(REMOVE(item))
     }
-
 
     const Amount = () => {
       let price = 0;
@@ -54,21 +49,12 @@ function Cart() {
     navigate('/')
    }
   },[dataLength])
-
-     
-  const showToastMessage = () => {
-    
-    toast.success('Order Placed Sucessfully !', {
-        position: toast.POSITION.TOP_RIGHT
-    });
-    
-    dispatch(Empty())
-      navigate('/')
-     
+  
+  const paymentHandle = () => 
+  {
+      navigate('/paymentpage')    
+}
    
-};
-
-     
   return (
     <>
     {
@@ -99,7 +85,7 @@ function Cart() {
                               <h5>{item?.title}</h5>
                               <p> {item?.star}</p>
                               <p>Price:{item?.price * item?.qnty}</p>
-                              <p> Size:{item?.size}</p>
+                              <p> {item?.type==='electronic'?"":`Size: ${item?.size}`}</p>
                               <div className='d-flex' > 
                               <div className='btnborder text-center'>
                               <span className="minus m-3" onClick={item.qnty <= 1 ? () => Delete(item.id) : () => Remove(item)}>-</span>
@@ -127,7 +113,7 @@ function Cart() {
               <h5 className='mx-3 my-3 shipping-charge' > Shippping Charges  :  <span style={{color:'green'}}>Free</span></h5>
               
               <span className='mx-3 cart-price'>Total Price:   {total}</span>
-              <button className='btn btn-primary' onClick={showToastMessage}> Place Order</button>
+              <button className='btn btn-primary' onClick={paymentHandle}> Place Order</button>
               <ToastContainer />
               <hr className='carthr my-4'/>
              </div>

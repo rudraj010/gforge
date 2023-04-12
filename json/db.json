@@ -3,8 +3,9 @@
       { "id": 1, 
       "title": "Men",
        "image": "https://images.unsplash.com/photo-1527010154944-f2241763d806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-        
-
+         
+         
+ 
      },
      {
          "id":2 , 
@@ -389,7 +390,8 @@
        "price":"8000",
        "star":"⭐⭐⭐⭐⭐" ,
        "description":"Stylelish black leather jacket for girls ",
-       "type":"girls"
+       "type":"girls",
+       "size":"xxxl"
       
     },
       { "id": 11, 
@@ -398,7 +400,8 @@
        "price":"5000",
        "star":"⭐⭐⭐⭐" ,
        "description":"Winter hoodie in white collection ",
-       "type":"girls"
+       "type":"girls",
+       "size":"xxxl"
     },
       { "id": 12, 
       "image": "https://images.unsplash.com/photo-1514994162322-3e95d11d22a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
@@ -406,7 +409,8 @@
        "price":"3000",
        "star":"⭐⭐⭐⭐" ,
        "description":"White t-shirt for summer ",
-       "type":"girls"
+       "type":"girls",
+       "size":"xxl"
     },
     { "id": 13, 
     "image":"https://images.unsplash.com/photo-1608465374941-e02ce28d1527?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
@@ -482,8 +486,8 @@
     "title":"Leather-Jacket",
      "price":"8000",
      "star":"⭐⭐⭐⭐⭐" ,
-     "type":"girls"
-    
+     "type":"girls",
+     "size":"xxxl"
   },
   { "id": 10, 
       "image": "https://images.unsplash.com/photo-1611791484670-ce19b801d192?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
@@ -512,14 +516,16 @@
       "title":"Winter-Hoodie",
        "price":"5000",
        "star":"⭐⭐⭐⭐" ,
-       "type":"girls"
+       "type":"girls",
+       "size":"xxl"
     },
       { "id": 12, 
       "image": "https://images.unsplash.com/photo-1514994162322-3e95d11d22a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", 
       "title":"Trandy-T-Shirt",
        "price":"3000",
        "star":"⭐⭐⭐⭐" ,
-       "type":"girls"
+       "type":"girls",
+       "size":"xl"
     },
       
       { "id": 11, 

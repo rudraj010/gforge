@@ -13,6 +13,7 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import Cart from '../Cart/Cart'
 import ForgotPassword from '../Authenthication/ForgotPassword/ForgotPassword'
+import Payment from '../Cart/PaymentPage/Payment'
 function RoutesPath() {
   return (
     <div>
@@ -30,6 +31,7 @@ function RoutesPath() {
             <Route path ='/electronicsingleproduct/:id' element ={<ElectronicSingleProduct/>}/>
             <Route path ='/cart' element ={<Cart/>}/>
             <Route path ='/forgot' element ={<ForgotPassword/>}/>
+            <Route path ='/paymentpage' element ={<Payment/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

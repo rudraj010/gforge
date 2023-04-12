@@ -8,11 +8,11 @@ const INIT_STATE = {
 console.log(INIT_STATE.carts, "sa")
 
 export const cartreducer = (state = INIT_STATE, action) => {
-    
-    switch (action.type) {
-        case ADD_CART:
 
-            const IteamIndex = state.carts.findIndex((item) => item.id === action.payload.id);
+    switch (action.type) {
+        case ADD_CART:                                                     
+                                                                           
+            const IteamIndex = state.carts.findIndex((item) => item.id ===  action.payload.id);
             localStorage.setItem("Localitems", JSON.stringify(state.carts))
               
             if (IteamIndex >= 0) {

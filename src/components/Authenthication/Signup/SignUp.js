@@ -21,6 +21,9 @@ const SignUp = () => {
         confirmPassword:""   
     });
 
+
+    
+
  
     const onChangeHandle = (e) => {
         const name = e.target.name;
@@ -34,7 +37,7 @@ const SignUp = () => {
     const Submit=async (e)=>{
       e.preventDefault()
       if(!data?.fullName.length){
-
+        alert('Please fill the details')
     }else if(!data?.email?.length){
           alert('Please fill the details')
              
@@ -58,7 +61,7 @@ const SignUp = () => {
             <section>
                 <div className="form_data">
                     <div className="heading">
-                        <h1>Log In</h1>
+                        <h1>Sign Up</h1>
                         <span className='mt-1'>Create yor account to get access</span>
 
                     </div>
@@ -66,7 +69,7 @@ const SignUp = () => {
                     <form onSubmit={Submit}>
                         <div className="form_input">
                             <label htmlFor="email">Full Name</label>
-                            <input type="text" value={data.fullName} onChange={onChangeHandle} name="fullName" id="text" placeholder='Username/Email Address' />
+                            <input type="text" value={data.fullName} onChange={onChangeHandle} name="fullName" id="text" placeholder='Full Name' />
                         </div>
                         <div className="form_input">
                             <label htmlFor="email">Email</label>
