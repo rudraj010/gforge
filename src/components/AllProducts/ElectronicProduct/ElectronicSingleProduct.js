@@ -1,9 +1,11 @@
 import React, { useEffect ,useState} from 'react'
+
 import { useParams } from 'react-router-dom'
-import './ElectronicSingleProduct.css'
 import { useDispatch } from 'react-redux'
-import { ADD } from '../../Redux/Action'
 import { ColorRing} from 'react-loader-spinner'
+import { ADD } from '../../Redux/Action'
+
+import './ElectronicSingleProduct.css'
 
 
 function MenProduct() {
@@ -71,8 +73,8 @@ await fetch(`http://localhost:3000/electronic/${id}`)
                 .</span> 
 
                 <h5 className='mt-4'> Ratings: {data?.star}</h5>
-                <h5 className='colors'> Colors: 🔴 🟢 ⚫</h5>
-                <h5 className=''> Size: <span>{data?.size}</span></h5>
+                <h5 className='colors'> Colors:  ⚫</h5>
+                <h5 className=''>  <span>{data?.size}</span></h5>
                 <div className='pt-3 d-flex biodata'>
                   </div>  
                    <hr className='my-3 btn-border'/>

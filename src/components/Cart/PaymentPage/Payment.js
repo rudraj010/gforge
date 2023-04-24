@@ -1,15 +1,17 @@
 import React from 'react'
+
 import {  useDispatch} from 'react-redux'
-import './Payment.css'
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom'
 import { Empty} from '../../Redux/Action'
+
+import './Payment.css'
 import 'react-toastify/dist/ReactToastify.css';
 function Payment() {
 
     const navigate = useNavigate()
      
-    
+     
  
     const dispatch =useDispatch()
 
@@ -22,7 +24,9 @@ function Payment() {
         dispatch(Empty())
           navigate('/')      
        
-    };
+    };                                                 
+
+      
 
   return (
     <div className='payment'>

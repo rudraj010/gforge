@@ -1,10 +1,12 @@
 import React, { useState ,useEffect} from 'react'
-import './TrandingProduct.css'
+
 import {Link} from 'react-router-dom'
 import shipping from '../../assests/shipping.png'
 import support from '../../assests/support.png'
 import cash from '../../assests/cash.png'
 import payment from '../../assests/payment.png'
+
+import './TrandingProduct.css'
 
 
 function TrandingProduct() {

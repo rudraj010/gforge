@@ -1,11 +1,12 @@
 import React,{useState,useEffect} from 'react'
+
 import { useSelector , useDispatch} from 'react-redux'
-import { ADD,DLT,REMOVE } from '../Redux/Action'
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { ColorRing} from 'react-loader-spinner'
+import { ADD,DLT,REMOVE } from '../Redux/Action'
 
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 function Cart() {
 
@@ -22,12 +23,12 @@ function Cart() {
     const Delete =(id)=>{
           dispatch(DLT(id))
          
-    }
-
+    }                                                   
+                                                         
     const Add =(e)=>{
           dispatch(ADD(e))
-    }
-
+    }  
+       
     const Remove =(item)=>{
           dispatch(REMOVE(item))
     }
@@ -80,11 +81,11 @@ function Cart() {
                             <img src ={item?.image}  className='cartimages' />
                               <div className='d-block cartstext  mx-3  p-3 flex-wrap'>
                              
+                                                                                                                                      
 
                               <p className=' d-block  '><strong>{item?.description}</strong></p>
                               <h5>{item?.title}</h5>
-                              <p> {item?.star}</p>
-                              <p>Price:{item?.price * item?.qnty}</p>
+                                    <p>Price:{item?.price * item?.qnty}</p>
                               <p> {item?.type==='electronic'?"":`Size: ${item?.size}`}</p>
                               <div className='d-flex' > 
                               <div className='btnborder text-center'>
@@ -106,19 +107,20 @@ function Cart() {
                 })
             }
 
+                  
 
             </div>
              <div className='container cart-total' >
               <hr className='carthr my-4'/>
-              <h5 className='mx-3 my-3 shipping-charge' > Shippping Charges  :  <span style={{color:'green'}}>Free</span></h5>
-              
+              <h5 className='mx-3  my-3 shipping-charge' > Shippping Charges  :  <span style={{color:'green'}}>Free</span></h5>
+                                   
               <span className='mx-3 cart-price'>Total Price:   {total}</span>
               <button className='btn btn-primary' onClick={paymentHandle}> Place Order</button>
               <ToastContainer />
               <hr className='carthr my-4'/>
              </div>
 
-             
+                                                         
           
              </div>
       </>

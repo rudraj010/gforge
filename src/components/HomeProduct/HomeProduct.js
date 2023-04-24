@@ -1,9 +1,25 @@
 import React, { useEffect, useState } from 'react'
+
 import { Link } from 'react-router-dom'
+import {useSelector,useDispatch} from 'react-redux'
+import { TrandingHomeProduct} from '../Redux/AuthReducer/AuthAction'
+
 import './HomeProduct.css'
+
 
 function HomeProduct() {
 
+
+  const dispatch =useDispatch()
+
+  const all = useSelector((state)=>state.app)
+  console.log(all,'all ')
+  
+    useEffect(()=>{
+      dispatch(TrandingHomeProduct())
+    },[])
+
+    
   const [data, setData] = useState()
   const [search,setSearch]=useState()
 
@@ -48,7 +64,7 @@ function HomeProduct() {
         <hr className='hr' />
         <div className=' d-flex flex-wrap justify-content-center mt-4 '>
           {
-            data?.map((item) => {
+            all?.products?.item2?.data?.map((item) => {
               return (
                 <div className='col-md-4 imgmeadia'>
                   <Link to={item?.type === 'men' ? `/mensingleproduct/${item?.id}` : item?.type === 'girls' ? `/womensingleproduct/${item?.id}` : `/electronicsingleproduct/${item?.id}`}

@@ -1,11 +1,15 @@
 import React, { useEffect ,useState} from 'react'
+
 import { Link } from 'react-router-dom'
- import './MenProduct.css'
  import { ColorRing} from 'react-loader-spinner'
 
+ import './MenProduct.css'
  
 
 function MenProduct() {
+
+   
+  
 
  const [data,setData]=useState()
 
@@ -23,7 +27,7 @@ fetch('http://localhost:3000/men').then((res)=>{
         handleAllProductData()
     },[])
 
-
+                                                           
 
   return (
     <>
@@ -49,8 +53,13 @@ fetch('http://localhost:3000/men').then((res)=>{
          data?.map((item)=>{
             return(
                 <div className='col-md-4 imgmeadia'>
-               <Link to = {`/mensingleproduct/${item?.id}`}  
-               className=' my-2  row   flex-wrap justify-content-center '>
+               <Link to = {`/mensingleproduct/${item?.id}`    
+                   
+               }  
+               className=' my-2  row   flex-wrap justify-content-center ' 
+
+              //  state={item} use location
+               >
                  <img src ={item?.image}  className='img' />
                </Link>
                   <div className=' justify-content-center flex-wrap details  text-center '>

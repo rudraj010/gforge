@@ -1,28 +1,39 @@
 import React, { useEffect ,useState} from 'react'
+
 import { useParams } from 'react-router-dom'
-import './MenSingleProduct.css'
-import { useDispatch} from 'react-redux'
-import { ADD } from '../../Redux/Action'
+import { useDispatch,useSelector} from 'react-redux'
 import { ColorRing} from 'react-loader-spinner'
+import { ADD } from '../../Redux/Action'
+import {SingleProduct} from '../../Redux/AuthReducer/AuthAction'
+
+import './MenSingleProduct.css'
+
+
+
+// const location =useLocation()
 
 function MenSingleProduct() {
 
+  const select =useSelector((state)=>state?.app)
+
+  console.log(select,'mens')
+
     const dispatch =useDispatch()
 
-    const [data,setData]=useState()
+    const [data,setData]=useState() 
      
+                                                      
 
     const {id} = useParams()
 
+
     const handleMenProductData=()=>{     
-fetch(`http://localhost:3000/men/${id}`)
-.then((res)=>{
-    res.json().then((result)=>{
-        setData(result)
-    })  
-})
+
+      dispatch(SingleProduct(id))
+     
     }
     
+                                                           
   
     useEffect(()=>{
       handleMenProductData()
@@ -42,7 +53,7 @@ fetch(`http://localhost:3000/men/${id}`)
   return (
     <>
     <hr/>
-    {!data? <span className='d-flex justify-content-center mt-5'>
+    {!select?.products?.item3?.data? <span className='d-flex justify-content-center mt-5'>
     <ColorRing
   visible={true}
   height="120"
@@ -65,19 +76,19 @@ fetch(`http://localhost:3000/men/${id}`)
         <hr className='mensinglehr' />
   <div className= 'container col-lg-12 ab col-md-12 mt-5 d-flex flex-wrap  '>
             <div className='col-lg-6 col-md-12'>
-            <img src={data?.image} alt='' className='singleimg'/>
+            <img src={select?.products?.item3?.data.image} alt='' className='singleimg'/>
             </div>
             <div className="col-lg-6 mt-3 media">
-                <h4>{data?.title}</h4>  
-                <p>{data?.price} & Free Shipping</p>  
+                <h4>{select?.products?.item3?.data.title}</h4>  
+                <p>{select?.products?.item3?.data.price} & Free Shipping</p>  
                 <h5>Men</h5>  
-
+               
                 <span> Looking good isn't self-importance; it's self-respect."  
 "Dressing well is a form of good manners."</span> 
 
-                <h5 className='mt-4'> Ratings: {data?.star}</h5>
+                <h5 className='mt-4'> Ratings: {select?.products?.item3?.data.star}</h5>
                 <h5 className='colors'> Colors: 🔴 🟢 ⚫</h5>
-                <h5 className=''> Size: <span>{data?.size}</span></h5>
+                <h5 className=''> Size: <span>{select?.products?.item3?.data.size}</span></h5>
                 <div className='pt-3 d-flex biodata'>
                   </div>  
                    <hr className='my-3 btn-border'/>
